@@ -17,18 +17,26 @@
             <label for="desc">Description </label>
             <input type="text" id="desc" name="desc"><br>
 
-            <label for="date">Due date </label>
-            <input type="text" id="date" name="date"><br>
+            <label for="date">Due Date:</label>
+            <input type="date" id="date" name="date"><br>
 
-            <label for="priority">Priority </label>
-            <input type="text" id="priority" name="priority"><br>
+            <div class="priority-option">
+                <label for="priority">Priority </label>
+                <input class="priority" type="button" value="High">
+                <input class="priority" type="button" value="Medium">
+                <input class="priority" type="button" value="Low">
+            </div>
+            
 
             <button type="submit" id="submitData">Submit</button>
         </form>
 
 
-        <div class="listItem">
-            
+        <div class="listItem"></div>
+
+        <div class="todo-edit">
+            <h1 class="title"></h1> 
+            <div class="update-input"></div>
         </div>
     </div>
 
